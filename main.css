@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body {
+    font-family:'Inconsolata','Times New Roman',serif;
+    background-color: #1A191B;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+h1 {
+    color: #E26712;
+    font-size: 36px;
+}
+
+a{
+   color: rgba(226, 103, 18, .9); /* Same as #E26712;*/
+}
+
+.regular_text{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 150%;
+}
+
+.emphasis_green{
+    color: #278B78; /* Same as rgba(39, 139, 120, 1)*/
+}
+
+.emphasis_red{
+    color: #E26712;
+}
+
+.center_text
+{
+    float: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header {
+    overflow: hidden;
+    float: center;
+    text-align: center;
+    margin: auto;
+}
+
+.header a {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a:hover {
+    color: #278B78;
+}
+
+.header a.active {
+    color: #E26712;
+}
+
+@media only screen and (max-width: 950px) {
+   .page_text {
+      padding-left: 10%;
+      padding-right: 10%;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+   .page_text {
+      padding-left: 3%;
+      padding-right: 3%;
+   }
+}
+    .page_text {
+        padding-top: 20px;
+      padding-left: 16%;
+      padding-right: 16%;
+   }
+
+#home_content{
+    width: 100%;
+    height: 100%;
+}
+
+.upper_text{
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.artifact_container {
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: auto;
+    max-width:700px;
+    height:0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:min(100%, 675px);
+}
+
+.artifact_overlay {
+    position:absolute;
+    inset: 0px;
+    width: 100%;
+    height:auto;
+}
+
+.molten_lava {
+    filter: url(#turbulence);
+}
+
+.artifact_animate {
+    animation: 3s ease-in-out 0s infinite normal none running bezrDb;
+}
+
+@keyframes bezrDb {
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(0px, 15px);}
+    100% {transform: translate(0px, 0px);}
+}
+
+}
