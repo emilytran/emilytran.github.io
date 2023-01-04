@@ -46,7 +46,7 @@ a{
 .header a {
   color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  padding: 12px;
+  padding: 16px;
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
@@ -61,24 +61,25 @@ a{
     color: #E26712;
 }
 
-@media only screen and (max-width: 950px) {
+    .page_text {
+      padding-left: 16%;
+      padding-right: 16%;
+      padding-top: 20px;
+   }
+
+   @media only screen and (max-width: 950px) {
    .page_text {
-      padding-left: 10%;
-      padding-right: 10%;
+      padding-left: 4%;
+      padding-right: 4%;
    }
 }
 
 @media only screen and (max-width: 600px) {
    .page_text {
-      padding-left: 3%;
-      padding-right: 3%;
+      padding-left: 2%;
+      padding-right: 2%;
    }
 }
-    .page_text {
-        padding-top: 20px;
-      padding-left: 16%;
-      padding-right: 16%;
-   }
 
 #home_content{
     width: 100%;
