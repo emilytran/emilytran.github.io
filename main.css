@@ -61,16 +61,16 @@ a{
     color: #E26712;
 }
 
-    .page_text {
+.page_text {
       padding-left: 16%;
       padding-right: 16%;
       padding-top: 20px;
    }
 
-   @media only screen and (max-width: 950px) {
+@media only screen and (max-width: 480px) {
    .page_text {
-      padding-left: 4%;
-      padding-right: 4%;
+      padding-left: 1%;
+      padding-right: 1%;
    }
 }
 
@@ -80,6 +80,14 @@ a{
       padding-right: 2%;
    }
 }
+
+@media only screen and (max-width: 950px) {
+   .page_text {
+      padding-left: 4%;
+      padding-right: 4%;
+   }
+}
+
 
 #home_content{
     width: 100%;
