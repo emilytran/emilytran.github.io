@@ -4,6 +4,8 @@ body {
     font-family:'Inconsolata','Times New Roman',serif;
     background-color: #1A191B;
     color: rgba(255, 255, 255, 0.9);
+    line-height: 110%;
+    font-size: 16px;
 }
 
 h1 {
@@ -15,10 +17,12 @@ a{
    color: rgba(226, 103, 18, .9); /* Same as #E26712;*/
 }
 
-.regular_text{
-    font-size: 16px;
-    color: rgba(255, 255, 255, 0.9);
-    line-height: 150%;
+@media screen and (max-width: 600px)  {
+    .desktop-break { display: none; }
+    }
+
+@media screen and (min-width: 600px)  {
+    .mobile-break { display: none; }
 }
 
 .emphasis_green{
@@ -62,8 +66,8 @@ a{
 }
 
 .page_text {
-      padding-left: 16%;
-      padding-right: 16%;
+      padding-left: 20%;
+      padding-right: 20%;
       padding-top: 20px;
    }
 
