@@ -17,10 +17,6 @@ a{
    color: rgba(226, 103, 18, .9); /* Same as #E26712;*/
 }
 
-@media screen and (max-width: 600px)  {
-    .desktop-break { display: none; }
-    }
-
 @media screen and (min-width: 600px)  {
     .mobile-break { display: none; }
 }
